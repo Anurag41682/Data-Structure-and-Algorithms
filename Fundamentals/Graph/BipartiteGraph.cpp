@@ -1,4 +1,4 @@
-//Graph Which can be coloured using only two colors having no two adjacent vertex same colors are called Bipartite Graph.
+//Graph Which can be coloured using only two colors having no two adjacent vertex of same colors are called Bipartite Graph.
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
