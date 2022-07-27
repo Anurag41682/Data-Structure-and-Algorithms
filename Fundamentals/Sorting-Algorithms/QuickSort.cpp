@@ -2,7 +2,9 @@
 #define endl '\n'
 #define int long long
 using namespace std;
-int partition(int arr[], int start, int end) {
+//this function move the pivot element at original position in sorted arrray and also move all the elements which are
+//smaller than or equal to it in front of it and return its postion.
+int partition(int arr[], int start, int end) {    
     int pivot = arr[end];
     int i = start;
     for (int j = start; j < end; j++) {
