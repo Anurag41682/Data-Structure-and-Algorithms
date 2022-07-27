@@ -5,7 +5,7 @@
 #define int long long
 #define endl '\n'
 using namespace std;
-
+// this function help to add value num to index idx 
 void update(int num, int idx, vector<int> &BIT) {
     int n = BIT.size();
     while (idx <= n) {
@@ -13,6 +13,7 @@ void update(int num, int idx, vector<int> &BIT) {
         idx += idx & (-idx);
     }
 }
+// this function help to get the sum upto(inclusive) index idx 
 int query(int idx, vector<int> &BIT) {
     int ans = 0;
     while (idx > 0) {
