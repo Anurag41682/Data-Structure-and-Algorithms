@@ -3,7 +3,7 @@
 #define int long long
 using namespace std;
 //this function move the pivot element at original position in sorted arrray and also move all the elements which are
-//smaller than or equal to it in front of it and return its postion.
+//smaller than or equal to it in front of it and return its(pivot) postion.
 int partition(int arr[], int start, int end) {    
     int pivot = arr[end];
     int i = start;
