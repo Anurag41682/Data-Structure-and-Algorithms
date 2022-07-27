@@ -9,7 +9,7 @@ int N = 1e6;
 vector<bool> sieve(N + 1, 1);
 void doSieve() {
     sieve[0] = sieve[1] = 0;
-    for (int i = 2; i * i <= N; i++) {  // this complexity is O(N log (log N));
+    for (int i = 2; i * i <= N; i++) {  // time complexity is O(N log (log N)) and space complexity is O(N)
         if (sieve[i]) {
             for (int j = i * i; j <= N; j += i) {
                 sieve[j] = 0;
