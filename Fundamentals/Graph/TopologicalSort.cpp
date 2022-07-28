@@ -1,5 +1,5 @@
-// If there is edge between u->v then u must come before v in topologicalSort
-// order.It is only applied to Directed Acyclic Graph
+// If there is edge between u->v then u must come before v in topologicalSort order.
+// It is only applied to Directed Acyclic Graph
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
