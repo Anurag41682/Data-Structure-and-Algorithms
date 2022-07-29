@@ -1,3 +1,4 @@
+//Time complexity O(sqrt(n)*log(n))
 #include <bits/stdc++.h>
 #define endl '\n'
 #define int long long
