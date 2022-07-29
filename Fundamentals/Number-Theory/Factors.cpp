@@ -17,7 +17,7 @@ void Divisors(int n, vector<int> &ans) {
 }
 void solve() {
     vector<int> ans;
-    Divisors(6241, ans);
+    Divisors(6241, ans);// this function give factors of 6241 in ans vector
     cout << (int)ans.size() << endl;
     for (auto it : ans) {
         cout << it << " ";
