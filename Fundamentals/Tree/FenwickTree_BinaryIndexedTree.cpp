@@ -6,7 +6,7 @@
 #define endl '\n'
 using namespace std;
 // this function help to add value num to index idx 
-void update(int num, int idx, vector<int> &BIT) {
+void update(int num, int idx, vector<int> &BIT) {  // log(n) time 
     int n = BIT.size();
     while (idx <= n) {
         BIT[idx] += num;
@@ -14,7 +14,7 @@ void update(int num, int idx, vector<int> &BIT) {
     }
 }
 // this function help to get the sum upto(inclusive) index idx 
-int query(int idx, vector<int> &BIT) {
+int query(int idx, vector<int> &BIT) { // log(n) time
     int ans = 0;
     while (idx > 0) {
         ans += BIT[idx];
