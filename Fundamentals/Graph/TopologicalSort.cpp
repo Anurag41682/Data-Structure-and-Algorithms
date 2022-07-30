@@ -1,5 +1,6 @@
 // If there is edge between u->v then u must come before v in topologicalSort order.
 // It is only applied to Directed Acyclic Graph
+// Time Complexity O(n+m) where n is no. of vertex and m is no. of edges
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
