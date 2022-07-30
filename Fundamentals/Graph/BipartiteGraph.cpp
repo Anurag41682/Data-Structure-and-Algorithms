@@ -1,4 +1,5 @@
 //Graph Which can be coloured using only two colors having no two adjacent vertex of same colors are called Bipartite Graph.
+//Time Complextiy O(n+m) where n is no. of vertices and m is no. of edges
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
