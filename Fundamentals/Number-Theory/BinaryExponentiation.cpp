@@ -1,4 +1,4 @@
-//Time Complexity O(log(n))
+//Time Complexity O(log n)
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
