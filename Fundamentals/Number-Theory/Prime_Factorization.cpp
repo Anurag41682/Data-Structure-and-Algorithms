@@ -18,8 +18,7 @@ void primeFactors(int n, vector<int> &ans) {
 }
 void solve() {
     vector<int> ans;
-    primeFactors(100, ans);  // This function will give PrimeFactorization of
-                             // 100 in vector ans
+    primeFactors(100, ans);  // This function will give PrimeFactorization of 100 in vector ans
     for (auto it : ans) {
         cout << it << " ";
     }
