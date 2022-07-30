@@ -1,7 +1,9 @@
+// Time complexity o(log (min(a,b)))
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
-int GCD(int a, int b) { return b ? GCD(b, a % b) : a; }
+// here a is dividend and b is divisor in function parameter
+int GCD(int a, int b) { return b ? GCD(b, a % b) : a; } 
 int32_t main() {
     int a, b;
     cin >> a >> b;
