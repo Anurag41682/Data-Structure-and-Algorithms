@@ -1,3 +1,4 @@
+//Time complextity O(alpha) approximately constant.
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
