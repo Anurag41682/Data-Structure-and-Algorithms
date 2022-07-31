@@ -6,7 +6,8 @@
 #define int long long
 using namespace std;
 int GCD(int a, int b) { return b ? GCD(b, a % b) : a; }
-int LCM(int a, int b) { return (a * b) / GCD(a, b); }
+//relation between lcm and hcf of two numbers a and b -> a * b = lcm(a, b) * hcf(a, b)(logic behind the function)
+int LCM(int a, int b) { return (a * b) / GCD(a, b); }  
 void solve() {
     // lcm of two numbers;
     // Time complexity O(log(min(a,b)))
