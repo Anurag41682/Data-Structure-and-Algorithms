@@ -16,7 +16,7 @@ int nPr(int n, int r) {
 void solve() {
     int n, r;
     cin >> n >> r;
-    cout << nPr(n, r) << endl;
+    cout << nPr(n, r) << endl; // outputs nPr of n and r
 }
 int32_t main() {
     ios_base::sync_with_stdio(false);
