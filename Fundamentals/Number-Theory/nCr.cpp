@@ -1,3 +1,4 @@
+// nCr is choosing r elements among n elements
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
