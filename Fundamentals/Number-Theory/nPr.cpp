@@ -1,3 +1,4 @@
+//nPr is arranging n elements among r spaces.
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
