@@ -23,9 +23,9 @@ int nCr(int n, int r) {
     return x;
 }
 void solve() {
-      int n, r;
-      cin >> n >> r;
-      cout << nCr(n,r) << endl; //outputs nCr of n and r     
+    int n, r;
+    cin >> n >> r;
+    cout << nCr(n, r) << endl;  // outputs nCr of n and r
 }
 int32_t main() {
     ios_base::sync_with_stdio(false);
