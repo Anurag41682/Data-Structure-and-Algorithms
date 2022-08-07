@@ -8,16 +8,17 @@
 using namespace std;
 int nPr(int n, int r) {
     int x = 1;
-    while (n - r) {
+    while (r) {
         x *= n;
         n--;
+        r--;
     }
     return x;
 }
 void solve() {
     int n, r;
     cin >> n >> r;
-    cout << nPr(n, r) << endl; // outputs nPr of n and r
+    cout << nPr(n, r) << endl;
 }
 int32_t main() {
     ios_base::sync_with_stdio(false);
