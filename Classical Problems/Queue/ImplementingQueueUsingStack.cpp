@@ -1,3 +1,4 @@
+// Try to remember how the O(1) operation will work to the idea of how the other operation would work.
 #include <bits/stdc++.h>
 using namespace std;
 class que1 {
