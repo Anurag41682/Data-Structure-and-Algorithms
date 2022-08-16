@@ -1,3 +1,4 @@
+//try to remember about the operation which is O(1) it will give the idea about how the other operation has to work.
 #include <bits/stdc++.h>
 using namespace std;
 class stack1 {
