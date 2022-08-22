@@ -14,7 +14,7 @@ void primeFactors(int n, vector<int> &ans) {
             n = n / i;
         }
     }
-    if (n > 2) ans.push_back(n);  // Condition for Prime Numbers
+    if (n > 1) ans.push_back(n);  // Condition for Prime Numbers
 }
 void solve() {
     vector<int> ans;
