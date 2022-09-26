@@ -8,7 +8,8 @@ So by matrix multiplication properties we can write it as:
 also we can write it as:
 |f(n)|    =  |1 1| |f(n-1)|
 |f(n-1)|     |1 0| |f(n-2)|
-// here f(n-1) is utility added so caluclation become easy the overall equation remain balanced.Upper term gives f(n) and lower term gives f(n-1)
+// here f(n-1) is utility added so that power of some constant term will come (in this case t is the constant term) so that we can use matrix 
+// exponentiation to calculate it in O(log(n)) time complexity and the overall equation remain balanced.Upper term gives f(n) and lower term gives f(n-1)
 
 Let us take n=5
 |f(5)|    =  |1 1| |f(4)|
