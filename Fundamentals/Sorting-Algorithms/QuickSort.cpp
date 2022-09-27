@@ -27,7 +27,6 @@ void quicksort(int arr[], int start, int end) {
 void solve() {
     int arr[] = {2, 3, 1, 7, 9, 1};
     int n = sizeof(arr) / sizeof(arr[0]);
-    cout << n << endl;
     quicksort(arr, 0, n - 1);
     for (auto it : arr) {
         cout << it << " ";
