@@ -25,7 +25,7 @@ void quicksort(int arr[], int start, int end) {
     }
 }
 void solve() {
-    int arr[] = {2, 3, 1};
+    int arr[] = {2, 3, 1, 7, 9, 1};
     int n = sizeof(arr) / sizeof(arr[0]);
     cout << n << endl;
     quicksort(arr, 0, n - 1);
@@ -37,6 +37,5 @@ int32_t main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     int T = 1;
-    cin >> T;
     while (T--) solve();
 }
