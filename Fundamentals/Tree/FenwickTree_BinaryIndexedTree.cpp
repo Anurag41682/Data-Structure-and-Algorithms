@@ -7,6 +7,7 @@
 using namespace std;
 // this function help to add value num to index idx 
 void update(int num, int idx, vector<int> &BIT) {  // log(n) time 
+                                             // also in idx we must give value from atleast 1 otherwise if we start from 0 it will have infinite loop.
     int n = BIT.size();
     while (idx <= n) {
         BIT[idx] += num;
