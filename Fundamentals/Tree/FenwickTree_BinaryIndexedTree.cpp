@@ -10,7 +10,8 @@ void update(int num, int idx, vector<int> &BIT) {  // log(n) time
     int n = BIT.size();
     while (idx <= n) {
         BIT[idx] += num;
-        idx += idx & (-idx);
+        idx += idx & (-idx);  //(-idx) = Two's complement of idx, eg. 15 = 1110 therefore -15 = 0010
+                              // it can be also find using (~idx + 1) as two's complement is one's complement + 1. 
     }
 }
 // this function help to get the sum upto(inclusive) index idx 
