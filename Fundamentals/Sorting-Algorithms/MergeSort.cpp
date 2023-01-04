@@ -1,11 +1,4 @@
-
-
-
 /*
-
-
-
-
 Start = s ,End = e and Mid = m
 
 s = 0,e = 7, m=(s+e)/2 = 3; 
@@ -32,9 +25,6 @@ array = {6,5,7,8}     array = {1,2,3,4}                                 - n step
 array = {1,2,3,4,5,6,7,8}                                               - n steps
 
                                                                 Total   = n*log(n) since log(n) is the time needed to divide array of size(n);
-
-
-
 
 */
 
