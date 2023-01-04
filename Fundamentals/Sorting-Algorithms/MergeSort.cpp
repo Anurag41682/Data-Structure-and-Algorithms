@@ -1,3 +1,43 @@
+
+
+
+/*
+
+
+
+
+Start = s ,End = e and Mid = m
+
+s = 0,e = 7, m=(s+e)/2 = 3; 
+
+
+first step is to divide array into equal parts recursively untill s < e
+
+         s     m       e
+array = {8,7,6,5,4,3,2,1}
+
+         s m   e                 s m   e
+array = {8,7,6,5}         array={4,3,2,1}
+
+         s m     e              s m     e               s m    e               s m     e 
+array = {8   ,   7}    array = {6   ,   5}     array = {4   ,   3}    array = {2   ,   1}
+
+
+second step is to merge each parts in sorted manner 
+
+array = {7, 8}    array= {5, 6}    array = {3, 4}    array = {1, 2}     - n steps
+
+array = {6,5,7,8}     array = {1,2,3,4}                                 - n steps
+
+array = {1,2,3,4,5,6,7,8}                                               - n steps
+
+                                                                Total   = n*log(n) since log(n) is the time needed to divide array of size(n);
+
+
+
+
+*/
+
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
