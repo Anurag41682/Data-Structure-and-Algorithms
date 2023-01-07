@@ -17,6 +17,7 @@
 
 // Here x become multiplicative modlulo inverse (MMI) of a under modulo b if a and b are co-prime (relativily prime) that is gcd of both is 1
 // otherwise it don't exist.
+// if x is negative we do x=(x%b+b)%b to get between 0 and b-1 (inclusive)
 
 #include <bits/stdc++.h>
 
