@@ -12,8 +12,11 @@
 // b(x1- floor(a/b)*y1) + ay1 = gcd(a,b) 
 // ay1 + b(x1-floor(a/b)*y1) = gcd(a,b) --- (ii) after comparing (ii) from (i) we get
 // x=y1 and y=(x1-ceil(a/b)*y1) ---(iii) this is the required thing to find the x and y
-// here x and y are of parent equation (which we need to find) and x1 and y1 (used to find x and y) are of child equation.
+// Here x and y are of parent equation (which we need to find) and x1 and y1 (used to find x and y) are of child equation.
 
+
+// Here x become multiplicative modlulo inverse (MMI) of a under modulo b if a and b are co-prime (relativily prime) that is gcd of both is 1
+// otherwise it don't exist.
 
 #include <bits/stdc++.h>
 
