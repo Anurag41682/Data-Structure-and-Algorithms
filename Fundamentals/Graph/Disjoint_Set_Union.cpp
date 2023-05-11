@@ -16,12 +16,12 @@ void unionn(int x, int y, vector<int>& parent, vector<int>& rank) {
     int p2 = findParent(y, parent);
 
     if (p1 != p2) {
-        if (rank[x] < rank[y]) {
-            parent[x] = y;
-            rank[y] += rank[x];
+        if (rank[p1] < rank[p2]) {
+            parent[p1] = p2;
+            rank[p2] += rank[p1];
         } else {
-            parent[y] = x;
-            rank[x] += rank[y];
+            parent[p2] = p1;
+            rank[p1] += rank[p2];
         }
     }
 }
