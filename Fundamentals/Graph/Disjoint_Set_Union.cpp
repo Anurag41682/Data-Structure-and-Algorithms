@@ -25,7 +25,6 @@ void unionn(int x, int y, vector<int>& parent, vector<int>& rank) {
         }
     }
 }
-
 void solve() {
     int n;
     cin >> n;
