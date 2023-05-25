@@ -1,4 +1,5 @@
 // nCr is choosing r elements among n elements
+// time complexity O(r*log(n))
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
