@@ -10,14 +10,15 @@ using namespace std;
 vector<vector<int>> adj;
 vector<int> color;
 bool checkBiapartite(int node, int clr) {
+    bool ans = true;
     if (color[node] == -1) {
         color[node] = clr;
         for (auto it : adj[node]) {
             if (color[it] == clr) return false;
-            checkBiapartite(it, !clr);
+            ans &= checkBiapartite(it, !clr);
         }
     }
-    return true;
+    return ans;
 }
 void solve() {
     int n, m;
