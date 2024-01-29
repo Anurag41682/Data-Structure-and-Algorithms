@@ -1,4 +1,7 @@
 // nPr is arranging n elements among r spaces.
+// Time Complexity - O(r)
+// Note: Not optimal for mulitple queries.
+
 #include <bits/stdc++.h>
 #ifndef LOCAL
 #define dbg(x...)
