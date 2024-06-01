@@ -13,6 +13,7 @@ void update(int num, int idx, vector<int> &BIT) {  // log(n) time
         BIT[idx] += num;
         idx += idx & (-idx);  //(-idx) = Two's complement of idx, eg. 14 = 1110 therefore -14 = 0010
                               // it can also be find by using (~idx + 1) as two's complement is one's complement + 1. 
+                              // idx & (-idx) basically gives least significant bit of idx.
     }
 }
 // this function help to get the sum upto(inclusive) index idx 
